@@ -41,7 +41,7 @@ public class StellarApplication {
         aws.s3Client.putObject(bucketName, inputFile, newData);
 
         //remove our temp file
-        newData.delete();
+        //newData.delete();
 	}
 
 
